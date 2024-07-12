@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-primary-700-200-token;
+}
+
+@font-face {
+	font-family: 'KodeMono-Regular';
+	src: url('/fonts/KodeMono-Regular.ttf');
+}
+
+:root [data-theme='skeleton'] {
+	--theme-font-family-base: 'KodeMono-Regular', sans-serif;
+	--theme-font-family-heading: 'KodeMondo-Regular', sans-serif;
+	/* ... */
+}
